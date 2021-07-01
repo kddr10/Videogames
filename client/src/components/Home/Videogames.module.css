@@ -1,0 +1,75 @@
+.wrapper {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 1rem;
+}
+
+.card {
+  height: 18rem;
+  width: 16rem;
+  border: rgba(223, 217, 214, 0.829) solid 2px;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 0;
+  text-decoration: none;
+}
+
+.card h3, p {
+    text-align: center;
+    color: rgba(223, 217, 214, 0.829);
+    text-decoration: none;
+}
+
+.pagination {
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination p {
+  color: rgba(223, 217, 214, 0.829);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.img {
+  height: 10rem;
+  width: 16rem;
+}
+
+.loader {
+  width: 90%;
+  display: inline-flex;
+  justify-content: center;
+  font-weight: bold;
+  padding-block-end: 25rem;
+}
+
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #4d1601;
+  color: white;
+  padding: 0.75rem 2rem;
+  height: 3rem;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  background-color: #2c0d00;
+}

@@ -1,0 +1,83 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../videogame-6006097_1920.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-block-end: 32rem;
+}
+
+.form {
+  margin: 2rem;
+  height: 19rem;
+  display: grid;
+  justify-content: center;
+}
+
+.form label {
+  display: flex;
+}
+
+.checkbox {
+  color: whitesmoke;
+  font-weight: normal;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 2rem;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-weight: normal;
+  margin-bottom: 0.25rem;
+  display: block;
+  color: whitesmoke;
+}
+
+.control input {
+  font: normal;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 22rem;
+  max-width: 100%;
+}
+
+.button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #4d1601;
+    color: white;
+    padding: 0.75rem 0.75rem;
+    height: 3rem;
+    width: 12rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #2c0d00;
+  }
+
+  .button:disabled,
+  .button:disabled:hover,
+  .button:disabled:active {
+    background-color: #ccc;
+    color: rgb(41, 38, 38);
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .error {
+    text-align: left;
+    color: rgb(179, 29, 29);
+    font-weight: bold;   
+  }

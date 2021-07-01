@@ -1,0 +1,29 @@
+.landing {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../pexels-garrett-morrow-682933.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #4d1601;
+  color: white;
+  padding: 0.75rem 2rem;
+  height: 4rem;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  background-color: #2c0d00;
+}

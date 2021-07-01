@@ -1,0 +1,8 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../videogame-6006097_1920.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-block-end: 10rem;
+}

@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: rgba(223, 217, 214, 0.829);
+}
